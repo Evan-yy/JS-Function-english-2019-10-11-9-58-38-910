@@ -3,5 +3,5 @@ function alphabetSort(message){
   var strArray = message.split("");
   strArray=strArray.sort();
   var str =strArray.join("");
-  console.log(str);
+  return str;
 }
